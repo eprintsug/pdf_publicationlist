@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://test3312.drs/id/epm/pdf_publicationlist'>
+  <epmid>pdf_publicationlist</epmid>
+  <uri>http://test3312.drs/id/epm/pdf_publicationlist</uri>
+  <documents>
+    <document>
+      <files>
+        <file>
+          <filename>static/images/epm/publist_icon_builder.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>80c9031448780fdfc80deef431be08ae</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>49351</filesize>
+        </file>
+      </files>
+      <mime_type>inode/symlink</mime_type>
+      <format>other</format>
+      <main>static/images/epm/publist_icon_builder.png</main>
+      <content>install</content>
+    </document>
+    <document>
+      <files>
+        <file>
+          <filename>static/images/epm/publist_icon_builder.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>80c9031448780fdfc80deef431be08ae</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>49351</filesize>
+        </file>
+      </files>
+      <format>image</format>
+      <main>static/images/epm/publist_icon_builder.png</main>
+      <content>coverimage</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>West</family>
+        <given>P</given>
+      </name>
+      <id>pjw@repositoryservices.co.uk</id>
+    </item>
+  </creators>
+  <title>PDF Publication List</title>
+  <description>An export plugin that creates a list of the user&apos;s publications as a PDF file</description>
+  <requirements>This requires the PDF api</requirements>
+  <home_page>http://wiki.eprints.org/w/PDF_PublicationList</home_page>
+  <icon>images/epm/publist_icon_builder.png</icon>
+</epm>
