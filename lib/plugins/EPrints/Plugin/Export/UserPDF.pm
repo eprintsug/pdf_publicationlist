@@ -252,14 +252,15 @@ sub write_profile_header
 	$header->font( $fonts->{header}, ($settings->{header_font_size})/pt );
 	$header->fillcolor($settings->{header_font_colour});
 	$header->translate( 35/mm, ($settings->{height} - 30)/mm );
-     #   $header->text( $plugin->phrase( "pdf_title" ) );
+	# the pdf_title is disabled as it may be part of the logo
+	# $header->text( $plugin->phrase( "pdf_title" ) );
 
 	my $logo_filename = $repo->config("archiveroot")."/cfg/static/images/".$settings->{logo};
 	if ( -e	$logo_filename )
 	{ 
 		my $logo = $page->gfx;
  		my $logo_file = $pdf->image_png($logo_filename);
- 		$logo->image( $logo_file, 15/mm, ($settings->{height} - 30)/mm, 241.2, 54 );
+ 		$logo->image( $logo_file, 15/mm, ($settings->{height} - 30)/mm, $settings->{logo_width}, $settings->{logo_height} );
 	}
 
         return $page;

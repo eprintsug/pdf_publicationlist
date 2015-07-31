@@ -3,17 +3,17 @@
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
 
 <!-- watermark phrases -->
-<epp:phrase id="watermark:publication_list_1">Institutional repository Alexandria</epp:phrase>
-<epp:phrase id="watermark:publication_list_2">www.alexandria.unisg.ch</epp:phrase>
-<epp:phrase id="watermark:publication_list_3">University of St. Gallen</epp:phrase>
+<epp:phrase id="watermark:publication_list_1">Institutional repository YYZ</epp:phrase>
+<epp:phrase id="watermark:publication_list_2">www.yyz.unisg.ch</epp:phrase>
+<epp:phrase id="watermark:publication_list_3">University of YYZ</epp:phrase>
 
 <!-- publication list phrases -->
 <epp:phrase id="publication_list:link:title">Publication List</epp:phrase>
 
 <epp:phrase id="Plugin/Screen/User/ExportPdf:action:write:title">My Publication List</epp:phrase>
-<epp:phrase id="Plugin/Export/UserPDF:pdf_title">University of St Gallen</epp:phrase>
+<epp:phrase id="Plugin/Export/UserPDF:pdf_title">University of YYZ</epp:phrase>
 <epp:phrase id="Plugin/Export/UserPDF:pdf_footer_page">Page: <epc:pin name="page" /></epp:phrase>
-<epp:phrase id="Plugin/Export/UserPDF:pdf_footer">Research platform Alexandria, <epc:pin name="day" />.<epc:pin name="month" />.<epc:pin name="year" /></epp:phrase>
+<epp:phrase id="Plugin/Export/UserPDF:pdf_footer">Research platform YYZ, <epc:pin name="day" />.<epc:pin name="month" />.<epc:pin name="year" /></epp:phrase>
 <epp:phrase id="Plugin/Export/UserPDF:pdf_detail_title">Publications</epp:phrase>
 <epp:phrase id="Plugin/Export/UserPDF:pdf_title_articles">Articles</epp:phrase>
 <epp:phrase id="Plugin/Export/UserPDF:pdf_title_books">Books</epp:phrase>

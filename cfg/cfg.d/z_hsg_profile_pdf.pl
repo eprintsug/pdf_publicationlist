@@ -21,7 +21,9 @@ $c->{profile_pdf_settings} = {
 	bleed => "5",
 	crop => "7.5",
 	art => "10",
-	logo => "images-unisg-logo-300dpi.png", # needs to be a png format image such as "sitelogo.png",
+	logo => "sitelogo.png", # needs to be a png format image such as "sitelogo.png",
+	logo_width => 200,
+	logo_height => 54,
 	watermark_x => 15,
 	watermark_y => 35,
 	footer_x => 25,
@@ -54,7 +56,7 @@ $c->{profile_pdf_settings} = {
 	footer_font_size => "10",
 	footer_font_colour => "#444444",
 
-	detail_fields => [qw/ org street post_code city phone email /],
+	detail_fields => [qw/ dept org address email /],
 	detail_field_offset => 30,
 
 	category => {
