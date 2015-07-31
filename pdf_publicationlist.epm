@@ -2140,7 +2140,7 @@ ZGlmeQAyMDE1LTA3LTEzVDE2OjA0OjU0KzAyOjAwhlqYZAAAAABJRU5ErkJggg==
     </item>
   </creators>
   <title>PDF Publication List</title>
-  <description>An export plugin that exports a list of the user&apos;s publications as a PDF file</description>
+  <description>An export plugin that exports a list of the user&apos;s publications as a PDF file developed for the University of St.Gallen</description>
   <requirements>This export plugin requires:
 PDF::API2
 MePrints</requirements>
